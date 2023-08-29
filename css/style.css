@@ -1,0 +1,71 @@
+.div1{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  animation-duration: 4s;
+  animation-name: x;
+  animation-delay: 2s;
+  
+}
+.div2{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  animation-duration: 4s;
+  animation-name: y;
+  animation-delay: 2s;
+  float: right;
+}
+.div3{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  animation-duration: 4s;
+  animation-name: x;
+  animation-delay: 2s;
+  margin-top: 150px;
+}
+.div4{
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  animation-duration: 4s;
+  animation-name: y;
+  animation-delay: 2s;
+  float: right;
+}
+.div5{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  animation-duration: 4s;
+  animation-name: x;
+  animation-delay: 2s;
+  margin-top: 150px;
+}
+.div6{
+  width: 150px;
+  height: 150px;
+  background-color:red;
+  animation-duration: 4s;
+  animation-name: y;
+  animation-delay: 2s;
+  float: right;
+}
+@keyframes x{
+  0%{
+  translate: 0 0;
+  }
+  100%{
+  translate: 1150px 0;
+  }
+}
+@keyframes y{
+  0%{
+    translate: 0 0;
+    animation-timing-function: linear;
+    }
+    100%{
+    translate: -1150px 0;
+    }
+}
